@@ -44,6 +44,145 @@
 			"answer": "Body{color: Black}",
 			"explanation": "Element is followed by curly brackets. Inside curly brackets you select what you want to style followed by : and how you want to style. End with semi-colon.",
 			"message":"Epic!"
+		},
+		{
+			"questionId": 6,
+			"questiontype": "IMC",
+			"question": "What is this image showing?",
+			"questionImage": "https://html.com/wp-content/uploads/html-homepage-layout-demo.webp",
+			"options": ["the structure of a word document", "how the average HTML page is structured visually", "the structure of a css page", "hpw the css code is written"],
+			"answer": "how the average HTML page is structured visually",
+			"explanation": "Html needs to have and html, head, body tags.",
+			"message":"Nice one!"
+		},
+		{
+			"questionId": 7,
+			"questiontype": "IMC",
+			"question": "What is this image showing you?",
+			"questionImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTcHY_JhRxU8UI1NAADezgokK_hYC82Cn-J5ly980V1OP11QB9B&usqp=CAU",
+			"options": ["how html tags are written", "how to style an element using css", "how to style and element using html", "how to style using an id attribute"],
+			"answer": "how to style an element using css",
+			"explanation": "A CSS rule-set consists of a selector and a declaration block. The selector points to the HTML element you want to style. ",
+			"message":"Great!"
+		},
+		{
+			"questionId": 8,
+			"questiontype": "IMC",
+			"question": "Which of the options are false according to this code snippet",
+			"questionImage": "HTML_CSS_Test_images/QuestionID_9_quiz2.PNG",
+			"options": ["how html tags are written", "how to style an element using css", "how to style and element using html", "how to style using an id attribute"],
+			"answer": "how to style an element using css",
+			"explanation": "A CSS rule-set consists of a selector and a declaration block. The selector points to the HTML element you want to style. ",
+			"message":"Great!"
+		},
+		{
+			"questionId": 9,
+			"questiontype": "TF",
+			"question": "Is this an example of a CSS comment: <!-- Write your comments here --> ",
+			"options": ["True", "False"],
+			"answer": "False",
+			"explanation": "This is an HTML comment",
+			"message":"You know your stuff!"
+		},
+		{
+			"questionId": 10,
+			"questiontype": "TF",
+			"question": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
+			"options": ["True", "False"],
+			"answer": "True",
+			"explanation": "It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+			"message":"Smart person!"
+		},
+		{
+			"questionId": 11,
+			"questiontype": "TF",
+			"question": "To add a caption to a table, you use the caption attribute in the opening table tag.",
+			"options": ["True", "False"],
+			"answer": "False",
+			"explanation": "The <caption> tag must be inserted immediately after the <table> tag. Not inside the opening table tag",
+			"message":"Tricky!"
+		},
+		{
+			"questionId": 12,
+			"questiontype": "TF",
+			"question": "True-False: By default, relative-width frames are resizable.",
+			"options": ["True", "False"],
+			"answer": "True",
+			"explanation": "If you do not want the frame windows to be resizeable, you should add the parameter {noresize} to the frame src lines",
+			"message":"Nice!"
+		},
+		{
+			"questionId": 13,
+			"questiontype": "FITB",
+			"question": "FIll in the Blank: Use _______ to make boxes pile horizontally across the page.",
+			"answer": "float",
+			"explanation": "The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.",
+			"message":"Sweet!"
+		},
+		{
+			"questionId": 14,
+			"questiontype": "FITB",
+			"question": "FIll in the Blank: An _______ rule can be used to define style rules for multiple media types in a single embedded style sheet.",
+			"answer": "@media",
+			"explanation": "The @media rule is used in media queries to apply different styles for different media types/devices.",
+			"message":"Great job!"
+		},
+		{
+			"questionId": 15,
+			"questiontype": "FITB",
+			"question": "FIll in the Blank: A _______  tag defines a division or a section in an HTML document.",
+			"answer": "<div>",
+			"explanation": "The <div> element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript.",
+			"message":"Fantastic!"
+		},
+		{
+			"questionId": 16,
+			"questiontype": "FITB",
+			"question": "FIll in the Blank: The _______ element contains meta information about the document ",
+			"answer": "<head>",
+			"explanation": "The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.",
+			"message":"Fantastic!"
+		},
+		{
+			"questionId": 17,
+			"questiontype": "MC",
+			"question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+			"options": ["A the end of the document", "in the <body> section", "In the <head> section", "Outside the <html> tags"],
+			"answer": "In the <head> section",
+			"explanation": "Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.",
+			"message":"Fantastic!"
+		},
+		{
+			"questionId": 17,
+			"questiontype": "SA",
+			"question": "What tag in HTML is used to enter a new line into the HTML contentes. include the tage <>.",
+			"answer": "<br>",
+			"explanation": "These tags are generally used to separate two different lines of text between each other.",
+			"message":"Very Good!"
+		},
+		{
+			"questionId": 18,
+			"questiontype": "SA",
+			"question": "Write a paragraph using the write tag that says \"Hello World!\"",
+			"answer": "<p>Hello World!</p>",
+			"explanation": "The HTML <p> element defines a paragraph.",
+			"message":"Well done!"
+		},
+		{
+			"questionId": 19,
+			"questiontype": "SA",
+			"question": "What tag is used to define a client-side script (JavaScript). INclude the tage <>",
+			"answer": "<script>",
+			"explanation": "The <script> element either contains script statements, or it points to an external script file through the src attribute.",
+			"message":"You get Points!"
+		},
+		{
+			"questionId": 20,
+			"questiontype": "SA",
+			"question": "What is the css code that will make an HTML element not display. Just write the one line with no spaces.",
+			"answer": "display:none;",
+			"explanation": "display: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them.",
+			"message":"Well done!"
 		}
 	]
 }
